@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+ font-family: verdana;
+}
+
+button {
+    width: 80px;
+}
+
+nav {
+    margin-left: 20%;
+    text-align: center; 
+    width: 60%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+} 
+
+li:hover {
+    background-color: lightgrey; 
+}
+
+a:hover {
+    color: white;
+}
+
+/* mostrar */
+.enabled-menu {
+    display: block;
+}
+
+/* ocultar */
+.disabled-menu {
+    display: none;
+}
